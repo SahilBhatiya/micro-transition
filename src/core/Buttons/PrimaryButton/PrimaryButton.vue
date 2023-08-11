@@ -1,7 +1,9 @@
 <template>
   <Button>
-    <slot></slot>
-    <span class="ms-2 icon_24 icon_container position-relative">
+    <div class="z-3">
+      <slot></slot>
+    </div>
+    <span class="ms-2 icon_24 icon_container position-relative z-3">
       <transition mode="out-in" name="blur-fade">
         <icon-loader v-if="loading" />
       </transition>

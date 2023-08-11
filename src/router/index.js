@@ -14,7 +14,7 @@ const router = createRouter({
 });
 
 router.beforeEach((to, from) => {
-  document.title = to.name + " - Adarsh Wheel Alignment";
+  document.title = to.name + " - Micro Transition";
   scroll(0, 0);
 });
 

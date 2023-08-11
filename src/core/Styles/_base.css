@@ -1946,6 +1946,7 @@
 }
 
 .p-button {
+    position: relative;
     color: #fff;
     background: linear-gradient(-45deg, #00b2ff, #4885ef);
     box-shadow: 0 10px 60px -10px #00b2ffaa, 0 10px 50px -2px #00b2ff55 !important;
@@ -1959,13 +1960,32 @@
 }
 
 .p-button:enabled:hover {
-    background: linear-gradient(-45deg, #00a1e8, #246ee8);
     box-shadow: 0 10px 60px -10px #00b2ffaa, 0 10px 100px 10px #00b2ff55 !important;
 }
 
+.p-button:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    background: linear-gradient(-45deg, #4885ef, rgb(88, 181, 222));
+    opacity: 0;
+    transition: all .5s !important;
+}
+
+.p-button:hover:after {
+    opacity: .4;
+}
+
+.p-button:enabled:active:after {
+    opacity: 1;
+}
+
 .p-button:enabled:active {
-    background: linear-gradient(-45deg, #0088c3, #2b66cc);
-    box-shadow: 0 10px 60px 10px #00b2ff77, 0 10px 100px 10px #00b2ff55 !important;
+    box-shadow: 0 10px 60px 0px #00b2ff77, 0 40px 100px 10px #00b2ff55 !important;
 }
 
 .p-button.p-button-outlined {
