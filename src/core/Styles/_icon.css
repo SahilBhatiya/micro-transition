@@ -1,0 +1,71 @@
+.base_icon {
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+}
+
+
+.icon_16 svg {
+    width: 16px;
+    height: 16px;
+}
+
+.icon_18 svg {
+    width: 18px;
+    height: 18px;
+}
+
+.icon_20 svg {
+    width: 20px;
+    height: 20px;
+}
+
+.icon_22 svg {
+    width: 22px;
+    height: 22px;
+}
+
+.icon_24 svg {
+    width: 24px;
+    height: 24px;
+}
+
+.icon_26 svg {
+    width: 26px;
+    height: 26px;
+}
+
+.icon_28 svg {
+    width: 28px;
+    height: 28px;
+}
+
+.icon_30 svg {
+    width: 30px;
+    height: 30px;
+}
+
+.icon_32 svg {
+    width: 32px;
+    height: 32px;
+}
+
+.icon_48 svg {
+    width: 48px;
+    height: 48px;
+}
+
+.icon_64 svg {
+    width: 64px;
+    height: 64px;
+}
+
+.icon_128 svg {
+    width: 128px;
+    height: 128px;
+}
+
+.icon_256 svg {
+    width: 256px;
+    height: 256px;
+}

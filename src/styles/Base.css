@@ -1,0 +1,6 @@
+:root {
+}
+
+body, html {
+    background: var(--surface-150) !important
+}
